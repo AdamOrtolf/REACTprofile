@@ -5,11 +5,12 @@
 }
 
 .navBar {
-      margin-top: -8%;
+      margin-top: -6.1%;
       position: fixed;
 }
 
 .navItem {
       color: blue;
+      margin: 5px;
 
 }

@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/Portfolio.css"
+import { Link } from "react-router-dom";
 
 
 
@@ -8,8 +9,9 @@ const Portfolio = () => {
             <div className="portfolioContainer">
             
                   <h1
-                  id="titleCenterBox"> Coding Portfolio
+                  className="titleCenterBox"> Coding Portfolio
                   </h1>
+                  
 
                   <h2> Links to portfolio projects below. </h2>
                   
@@ -19,39 +21,37 @@ const Portfolio = () => {
                   <ol id="portfolioList" />
              
              
-             
-                              <li>
-                                    First Portfolio Item
-
-                              </li>
-                              
-                              <div>
-                  
-                              </div>
-
-                              
                               
                               <li>
-                              2 Portfolio Item
-                              
+                            
+                                    <p className="itemTitle"> Planetary Clickbait Quiz Application</p>
+                                   <a className="portLinks" href="https://tcollins2011.github.io/Project_1/">Launch Planetary Clickbait Quiz Application</a>
+                                   
+                            
                               </li>
                               
-                              <div>
-                              </div>
-
-                              
-                              <li>
-                              3 Portfolio Item
-                        
-                              </li>
                               
                               <div>
                               </div>
                               
-                  
                               <li>
-                                    4 portfolio
-                        
+                            
+                                    <p className="itemTitle"> Interactive Daily Planner Application</p>
+                                    <a className="portLinks" href="https://adamortolf.github.io/InteractiveDayPlanner/">Launch Interactive Daily Planner Application</a>
+                                    
+                    
+                               </li>
+                              
+                              <div>
+                              </div>
+
+                              
+                              <li>
+                            
+                                    <p className="itemTitle"> Employee Directory Search Application</p>
+                                    <a className="portLinks" href="https://adamortolf.github.io/reactEmployeeDir/">Launch Employee Directory Search Application</a>
+                                   
+                            
                               </li>
                               
                               <div>
@@ -59,8 +59,23 @@ const Portfolio = () => {
                               
                   
                               <li>
-                                    5 portfolio
-                        
+                                    
+                                    <p className="itemTitle"> IQ Test Application </p>
+                                    <a className="portLinks" href="https://tcollins2011.github.io/Project_1/">Launch IQ Test Application </a>
+                           
+                    
+                              </li>
+
+                              <div>
+                              </div>
+                              
+                  
+                               <li>
+                            
+                                    <p className="itemTitle"> Note Taker Application </p>
+                                    <a className="portLinks" href="https://adamortolf.github.io/noteTaker/">Launch Note Taker Application</a>
+                                   
+                            
                               </li>
             </div>
 

@@ -18,11 +18,11 @@ function Navbar(){
                 </li>
 
                 <li className="navItem">
-                <Link to="/Contact">Contact</Link>
+                <Link to="/Portfolio">Portfolio</Link>
                 </li>
 
                 <li className="navItem">
-                <Link to="/Portfolio">Portfolio</Link>
+                <Link to="/Contact">Contact</Link>
                 </li>
               </ul>
           </nav>

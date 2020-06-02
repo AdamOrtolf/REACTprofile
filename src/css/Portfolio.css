@@ -1,4 +1,18 @@
 .portfolioContainer {
-      margin-left: 5%;
+      margin: 5px;
+      margin-top: 5%;
+      text-align: center;
+      
+}
+.titleCenterBox {
+      font-size: 36px;
+}
+.itemTitle {
+      font-size: 25px;
+      font: bolder;
+      font-weight: 750;
+
+}
+.portLink {
       
 }
