@@ -1,0 +1,15 @@
+.topBanner {
+      text-align: center;
+      font-size: 45px;
+      
+}
+
+.navBar {
+      margin-top: -8%;
+      position: fixed;
+}
+
+.navItem {
+      color: blue;
+
+}
