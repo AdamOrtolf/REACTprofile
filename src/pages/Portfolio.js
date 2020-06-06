@@ -61,7 +61,7 @@ const Portfolio = () => {
                               <li>
                                     
                                     <p className="itemTitle"> IQ Test Application </p>
-                                    <a className="portLinks" href="https://tcollins2011.github.io/Project_1/">Launch IQ Test Application </a>
+                                    <a className="portLinks" href="https://github.com/MasonBurke/proj2">Launch IQ Test Application </a>
                            
                     
                               </li>
